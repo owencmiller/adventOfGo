@@ -14,7 +14,7 @@ func check(err error){
 }
 
 func get_bounds()(int, int){
-	data1, err := ioutil.ReadFile("./2019/day4/day4input")
+	data1, err := ioutil.ReadFile("./day4input")
 	check(err)
 	data := string(data1)
 	var lowerbound int
